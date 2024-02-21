@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{EBACB22F-8715-4319-88AD-51B48BC2C308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rush01.WeatherClient", "rush01.WeatherClient\rush01.WeatherClient.csproj", "{B547D208-C195-4DF3-81B0-0B360CA6EB03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EBACB22F-8715-4319-88AD-51B48BC2C308} = {EBACB22F-8715-4319-88AD-51B48BC2C308}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBACB22F-8715-4319-88AD-51B48BC2C308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBACB22F-8715-4319-88AD-51B48BC2C308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBACB22F-8715-4319-88AD-51B48BC2C308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBACB22F-8715-4319-88AD-51B48BC2C308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B547D208-C195-4DF3-81B0-0B360CA6EB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B547D208-C195-4DF3-81B0-0B360CA6EB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B547D208-C195-4DF3-81B0-0B360CA6EB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B547D208-C195-4DF3-81B0-0B360CA6EB03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36663AE1-B332-4960-8CCD-4B4C367091D8}
+	EndGlobalSection
+EndGlobal
